@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+    <div class="row">
+        <div class="column left" style="background-color:#aaa;">
+          <h2>New book</h2>
+          <form>
+              <ul>
+                  <li>
+                      <label for="title">Title:</label>
+                      <input type="text" id="title" name="title">
+                  </li>   
+                  <li>
+                      <label for="author">Author</label>
+                      <input type="text" id="author" name="author">
+
+                  </li>
+                  <li>
+                      <label for="pages">Pages: </label>
+                      <input type="number" id="pages" name="pages">
+                  </li>
+                  <li>
+                      <label for="read">Have you read it?</label>
+                      <input type="checkbox" id="read" name="read">
+                  </li>
+                  <li>
+                      <button id="myButton" type="button">Add to library</button>
+                  </li>
+                  
+              </ul>
+
+          </form>
+        </div>
+
+        <div class="column right" style="background-color:#bbb;">
+          <h2>Books</h2>
+      
+          <div class="flex-container" id="container">
+
+        </div>
+      </div>
+      
+
+    
+
+
+    </div>
+    
+</body>
+</html>
